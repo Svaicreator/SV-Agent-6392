@@ -96,7 +96,7 @@ let response = await fetch("https://api.openai.com/v1/chat/completions",{
 method:"POST",
 headers:{
 "Content-Type":"application/json",
-"Authorization":"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"
+"Authorization":Bearer"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"
 },
 body:JSON.stringify({
 model:"gpt-4o-mini",
@@ -113,4 +113,5 @@ data.choices[0].message.content;
 </script>
 </body>
 </html>
+
 
